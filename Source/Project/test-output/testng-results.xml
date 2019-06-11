@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="40318" started-at="2019-04-17T09:15:29Z" finished-at="2019-04-17T09:16:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="40318" started-at="2019-04-17T09:15:29Z" finished-at="2019-04-17T09:16:10Z">
+      <class name="com.Module.Project.TestFacebook">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.Module.Project.TestFacebook@6debcae2]" name="startReport" is-config="true" duration-ms="584" started-at="2019-04-17T10:15:29Z" finished-at="2019-04-17T10:15:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Module.Project.TestFacebook@6debcae2]" name="setup" is-config="true" duration-ms="10671" started-at="2019-04-17T10:15:30Z" finished-at="2019-04-17T10:15:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_Home_Page()[pri:0, instance:com.Module.Project.TestFacebook@6debcae2]" name="test_Home_Page" duration-ms="17649" started-at="2019-04-17T10:15:41Z" finished-at="2019-04-17T10:15:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Home_Page -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.Module.Project.TestFacebook@6debcae2]" name="getResult" is-config="true" duration-ms="4" started-at="2019-04-17T10:15:58Z" finished-at="2019-04-17T10:15:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Home_Page status=SUCCESS method=TestFacebook.test_Home_Page()[pri:0, instance:com.Module.Project.TestFacebook@6debcae2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="passTest()[pri:0, instance:com.Module.Project.TestFacebook@6debcae2]" name="passTest" duration-ms="3" started-at="2019-04-17T10:15:58Z" finished-at="2019-04-17T10:15:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.Module.Project.TestFacebook@6debcae2]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-17T10:15:58Z" finished-at="2019-04-17T10:15:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=passTest status=SUCCESS method=TestFacebook.passTest()[pri:0, instance:com.Module.Project.TestFacebook@6debcae2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="clickTab()[pri:0, instance:com.Module.Project.TestFacebook@6debcae2]" name="clickTab" duration-ms="8376" started-at="2019-04-17T10:15:58Z" finished-at="2019-04-17T10:16:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickTab -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.Module.Project.TestFacebook@6debcae2]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-17T10:16:07Z" finished-at="2019-04-17T10:16:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickTab status=SUCCESS method=TestFacebook.clickTab()[pri:0, instance:com.Module.Project.TestFacebook@6debcae2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Module.Project.TestFacebook@6debcae2]" name="tearDown" is-config="true" duration-ms="2173" started-at="2019-04-17T10:16:07Z" finished-at="2019-04-17T10:16:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="stopReport()[pri:0, instance:com.Module.Project.TestFacebook@6debcae2]" name="stopReport" is-config="true" duration-ms="834" started-at="2019-04-17T10:16:09Z" finished-at="2019-04-17T10:16:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- com.Module.Project.TestFacebook -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

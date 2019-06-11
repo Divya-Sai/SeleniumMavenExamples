@@ -6,12 +6,12 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class Guru99HomePage {
-	
+
 	WebDriver driver;
 
     @FindBy(xpath="//table//tr[@class='heading3']")
 
-    WebElement homePageUserName;    
+    WebElement homePageUserName;
 
     public Guru99HomePage(WebDriver driver){
 
@@ -21,13 +21,17 @@ public class Guru99HomePage {
 
         PageFactory.initElements(driver, this);
 
-    }   
+    }
 
     //Get the User name from Home Page
 
         public String getHomePageDashboardUserName(){
 
          return    homePageUserName.getText();
+         System.out.println("Hello Lovely!!!!");
+         System.out.println("Hello Lovely!!!!");
+         System.out.println("Hello Lovely!!!!");
+         System.out.println("Hello Lovely!!!!");
 
         }
 
